@@ -47,13 +47,13 @@ improvement. Beat up the code instead!
 
 ### Use meaningful and pronounceable variable names
 
-**Bad:**
+**Bad**
 
 ```javascript
 const yyyymmdstr = moment().format("YYYY/MM/DD");
 ```
 
-**Good:**
+**Good**
 
 ```javascript
 const currentDate = moment().format("YYYY/MM/DD");
